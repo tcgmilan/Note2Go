@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    right: 50%;
+    top: 10%;
+    font-family: "Licorice", cursive;
+    opacity: 100%;
+    animation: fade 2s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fade{
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

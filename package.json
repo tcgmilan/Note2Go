@@ -1,0 +1,23 @@
+{
+  "name": "note2go",
+  "version": "1.0.0",
+  "description": "A Notepad written in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "tcgmilan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  },
+  "dependencies": {
+    "electron-builder": "^22.14.5"
+  },
+  "build": {
+    "appId": "Note2Go",
+    "mac": {
+      "category": "Notepad"
+    }
+  }
+}

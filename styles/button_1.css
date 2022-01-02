@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+.button_1 {
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 20px;
+  }
+  
+.button_1:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background : #fff;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+  }
+  
+.button_1:hover:before {
+    width: 100%;
+    left:0;
+  }
+  
