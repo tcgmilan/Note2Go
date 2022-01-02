@@ -1,4 +1,4 @@
-# Note2Go
+# Note2Go [![GitHub release](https://img.shields.io/github/release/tcgmilan/Note2Go.svg)](https://GitHub.com/tcgmilan/Note2Go/releases/)
 
 
 ## A Cloud Based Note App
